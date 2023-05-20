@@ -1,3 +1,6 @@
+// FOR.MAP
+
+
 const pessoa = [
     {
     nome : 'Joao',
@@ -18,4 +21,14 @@ const pessoa = [
    }
 ]; 
 
-console.log(pessoa.nome);
+for(let i=0;i <= pessoa.length; i++){
+  
+
+    console.log(pessoa[i]);
+}
+ 
+console.log('-'*44);
+
+pessoa.forEach((obj) => {
+    console.log(obj);
+})
